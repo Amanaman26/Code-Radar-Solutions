@@ -1,9 +1,10 @@
 #include <stdio.h>
 int main() {
-    int x,y;
-    int c=x+y;
+    int x,y,c;
     scanf("%d %d",&x &y );
     printf("Sum: ");
-    printf("%d",x y);
+    int c=x+y;
+    printf("%d",x,y,c);
+
     return 0;
 }
