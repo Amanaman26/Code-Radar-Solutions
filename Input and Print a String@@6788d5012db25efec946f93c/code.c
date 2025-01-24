@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    char y[];
+    char y;
     scanf("%s",y);
     printf("You entered: ");
     printf("%s",y);
