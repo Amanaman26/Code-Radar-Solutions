@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     int x,y,c;
-    scanf("%d %d",&x &y );
+    scanf("%d %d",&x,&y );
     c=x+y;
     printf("Sum: ");
     printf("%d",c);
