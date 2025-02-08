@@ -9,7 +9,7 @@ int main() {
         printf("Scalene");
     }
     else{
-        printf("Isoscles");
+        printf("Isosceles");
     }
 
 
