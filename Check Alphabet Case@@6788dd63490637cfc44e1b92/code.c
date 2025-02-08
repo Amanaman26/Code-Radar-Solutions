@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(
+int main(){
     char a;
     scanf("%c",&a);
     if(a>='A' && a<='Z'){
@@ -12,4 +12,4 @@ int main(
         printf("Not an alphabet");
     }   
     return 0;
-)
+}    
