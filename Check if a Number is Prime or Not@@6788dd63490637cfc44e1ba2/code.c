@@ -8,10 +8,11 @@ if(a<2){
 for(i=2;i*i<=a;i++){
     if(a%i==0){
         printf("Prime");
+        break;
     }
-    else{
+}
+else{
     printf("Not Prime");
-    }
 }
 return 0;
 }
