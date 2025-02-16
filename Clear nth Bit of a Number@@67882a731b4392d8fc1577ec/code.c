@@ -5,7 +5,9 @@ int main() {
     int num, n;
     scanf("%d %d", &num, &n);
 
-    printf("%d\n", (num << n) | 1);
+    num = num & ~(1 << n);
+    printf("%d\n", num);
 
     return 0;
 }
+
