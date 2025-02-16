@@ -3,7 +3,8 @@
 int main() {
     int x, y;
     char v;
-    scanf("%d %d %*c%c", &x, &y, &v);
+
+    scanf("%d %d %c", &x, &y, &v);
 
     switch (v) {
         case '+':
@@ -17,9 +18,9 @@ int main() {
             break;
         case '/':
             if (y == 0)
-                printf("Division by zero error");
+                printf("error");
             else
-                printf("%d", x / y); 
+                printf("%d", x / y);
             break;
         default:
             printf("error");
